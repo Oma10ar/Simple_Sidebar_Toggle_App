@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  background-color: rgb(157, 11, 11);
+  color: white;
+  border: solid 1px black;
+  border-radius: 10px;
+  height: 20px;
+  margin: 10px;
+}
+
+#nav {
+  /* display: none; */
+  background-color: rgb(157, 11, 11);
+  color: white;
+  
+  padding-left: 0;
+  height: 100vh;
+}
+
+ul {
+  
+  padding: 0;
+ 
+  list-style-type: none;
+}
+li {
+  padding: 5px;
+  padding-top: 0;
+}
+
+
+li:hover , button:hover{
+    background-color: black;
+}
+
+
+
+.hide {
+    display: none;
+}
